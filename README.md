@@ -34,6 +34,13 @@ The model contains 1 convolution layers (with ReLU and including max pooling), t
 * Please import all neccesary libraries as in interface.py
 * Kindly note the code has been written in python 3.10. Hence please use the same environment.
 
+## Training data:
+It's on my drive. Its a 400 MB file, which has test and train data (input and output) are combined. to see it:
+use data = np.load() function. x_train = data['x_train'], y_train = data['y_train'] , x_test = data['x_test'], y_test = data['y_test']
+* Note, that the code, already has methods to take out x and y test train data.
+* Use The following link to download this:
+* https://drive.google.com/drive/folders/1Bhggz8ueROvT11u_taYsOpKqkb_-ydZI?usp=sharing
+
 ## Kindly contact in case any issue:
 EMAIL - chitvan.singh@students.iiserpune.ac.in
 
