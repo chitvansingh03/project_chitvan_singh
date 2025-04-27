@@ -46,6 +46,8 @@ Test loss on test data of ~3000 samples from 2014- 2023 was MSE = 0.6973, MAE = 
 * The model was not able to predict extreme anomalies |T| > 0.5, well, however it is able to replicate mean behaviour over the time very well. Hence, the anomaies have the correct sign mostly.
 * This is illustraed from the follwing plots.
 
+* ./corelation_plot.png
+
 ## Kindly contact in case any issue:
 EMAIL - chitvan.singh@students.iiserpune.ac.in
 
