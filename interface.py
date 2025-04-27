@@ -32,7 +32,7 @@ from dataset import unicornLoader as the_dataloader
 
 from config import hyper_param, input_shape
 
-
+'''
 #Example of running the model
 
 ## Add the paths
@@ -61,3 +61,4 @@ the_predictor(TheModel, weights_path, data_path, hyper_param)
 ## Note if the above commands are not given to above functions they will not work
 
 
+'''
