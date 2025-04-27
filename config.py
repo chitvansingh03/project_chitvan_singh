@@ -7,7 +7,7 @@ Created on Sun Apr 27 02:51:19 2025
 
 # Hyperparameters
 drop_prob = 0.9
-epochs = 5  # or your value
+epochs = 100  # or your value
 val_split = 0.1
 batch_size = 32
 learning_rate = 0.001

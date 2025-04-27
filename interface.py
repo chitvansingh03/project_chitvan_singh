@@ -1,5 +1,17 @@
-import sys
-sys.path.append(r'E:\Academics_IISER\Sem8\IV_Process\notebook1')
+## Note working directory and directory my files are saved has to identical
+## Else unhash the follwing command and put the directory of the files.
+#import sys
+#sys.path.append(r'E:\Academics_IISER\Sem8\IV_Process\notebook1')
+## All the important libraries
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import pearsonr
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader, TensorDataset, random_split
+from torch.optim import Adam
+from torchsummary import summary
 
 # replace MyCustomModel with the name of your model
 from model import CNNModel as TheModel
@@ -46,6 +58,6 @@ the_trainer(input_shape= input_shape, model = TheModel,
 ## Prediction - Assumes in general one numpy image at a time.
 the_predictor(TheModel, weights_path, data_path, hyper_param)
 
-## Note of the above commands are not given to above functions they will not work
+## Note if the above commands are not given to above functions they will not work
 
 

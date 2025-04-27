@@ -6,7 +6,7 @@ Created on Sun Apr 27 13:58:42 2025
 """
 import numpy as np
 import matplotlib.pyplot as plt
-from config import hyper_param
+#from config import hyper_param
 import torch
 from torch import nn
 from torch.optim import Adam
