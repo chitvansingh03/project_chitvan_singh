@@ -41,6 +41,11 @@ use data = np.load() function. x_train = data['x_train'], y_train = data['y_trai
 * Use The following link to download this:
 * https://drive.google.com/drive/folders/1Bhggz8ueROvT11u_taYsOpKqkb_-ydZI?usp=sharing
 
+## Important note on results:
+Test loss on test data of ~3000 samples from 2014- 2023 was MSE = 0.6973, MAE = 0.66
+* The model was not able to predict extreme anomalies |T| > 0.5, well, however it is able to replicate mean behaviour over the time very well. Hence, the anomaies have the correct sign mostly.
+* This is illustraed from the follwing plots.
+
 ## Kindly contact in case any issue:
 EMAIL - chitvan.singh@students.iiserpune.ac.in
 
