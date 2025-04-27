@@ -44,9 +44,11 @@ use data = np.load() function. x_train = data['x_train'], y_train = data['y_trai
 ## Important note on results:
 Test loss on test data of ~3000 samples from 2014- 2023 was MSE = 0.6973, MAE = 0.66
 * The model was not able to predict extreme anomalies |T| > 0.5, well, however it is able to replicate mean behaviour over the time very well. Hence, the anomaies have the correct sign mostly.
-* This is illustraed from the follwing plots.
-
-* ./corelation_plot.png
+* This is illustraed from the following plots.
+<p float="left">
+  <img src="/corelation_plot.png" width="60%" />
+  <img src="TruevsPredict_Timeseries.png" width="70%" />
+</p>
 
 ## Kindly contact in case any issue:
 EMAIL - chitvan.singh@students.iiserpune.ac.in
